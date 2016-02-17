@@ -4,7 +4,8 @@
   "description": "Blog for CPSC113",
   "main": "index.js",
   "scripts": {
-    "start": "bower.json"
+    "start": "node index.js",
+    "postinstall": "./node_modules/bower/bin/bower install"
   },
   "author": "",
   "license": "Unlicense",
