@@ -1,0 +1,41 @@
+<footer>
+  <div class="{% if fluid_layout %}container-fluid{% else %}container{% endif %}">
+    <div class="row">
+      <div class="col-xs-6">
+        <h3 class="footer-title">Our app &ldquo;{{data.team.app.name}}&rdquo;</h3>
+        <p>
+          {{data.team.app.value}}
+        </p>
+
+        <ul class="team-app-details">
+          <li>
+            <a href="{{data.team.app.repo}}">
+              <i class="fa fa-github-alt"></i>
+              {{data.team.app.repo}}
+            </a>
+          </li>
+          <li>
+            <a href="http://twitter.com/{{data.team.app.twitter_username}}">
+              <i class="fa fa-twitter"></i>
+              @{{data.team.app.twitter_username}}
+            </a>
+          </li>
+        </ul>
+      </div> <!-- /col-xs-7 -->
+
+      <div class="col-xs-6 footer-banner-holder">
+        <div class="footer-banner">
+          <h3 class="footer-title">Team {{data.team.name}} is...</h3>
+          <ul>
+            {% for member in data.team.members %}
+              <li>
+                {{member.first_name}} {{member.last_name}}
+                <a class="contact-member" href="mailto:{{member.email}}"><i class="fa fa-envelope-o"></i></a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

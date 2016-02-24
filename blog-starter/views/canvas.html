@@ -1,0 +1,59 @@
+
+{% extends "layout.html" %}
+
+{% block extra_head %}
+  {% set fluid_layout = true %}
+{% endblock %}
+
+{% block bootstrap_container_class %}container-fluid{% endblock %}
+
+{% block header %}
+  <div class="container-fluid">
+    <header class="row page-header">
+      <h1>{{data.team.name}}<small> // {{data.class.number}} &ndash; {{data.class.semester}}</small></h1>
+    </header>
+  </div> <!-- /container -->
+{% endblock %}
+
+{% macro bmc_block(canvasEntry, title, colspan, rowspan) %}
+<div class="field">
+  <td {% if colspan %}colspan="{{colspan}}"{% endif %}
+      {% if rowspan %}rowspan="{{rowspan}}"{% endif %} >
+    <h5 class="canvas-heading">{{title}}</h5>
+    <ul>
+      {% for canvasBullet in canvasEntry %}
+        <li {% if canvasBullet.invalidated %}class="invalidated"{% endif %}>
+          {{canvasBullet.title|inlineMarkdown|safe}}
+        </li>
+      {% endfor %}
+    </ul>
+  </td>
+</div>
+{% endmacro %}
+
+{% block main %}
+  <table id="bizcanvas" cellspacing="0" border="1">
+     <!-- Upper part -->
+     <tr>
+       {{ bmc_block(canvas.problem, 'Problem', 2, 2)}}
+       {{ bmc_block(canvas.solution, 'Solution', 2, 0)}}
+       {{ bmc_block(canvas.value_proposition, 'Value Proposition', 2, 2)}}
+
+       {{ bmc_block(canvas.unfair_advantage, 'Unfair Advantage', 2, 0)}}
+       {{ bmc_block(canvas.customer_segments, 'Customer Segments', 2, 2)}}
+     </tr>
+
+     <!-- Lower part -->
+     <tr>
+       {{ bmc_block(canvas.key_metrics, 'Key Metrics', 2, 0)}}
+       {{ bmc_block(canvas.channels, 'Channels ', 2, 0)}}
+     </tr>
+     <tr>
+       {{ bmc_block(canvas.cost_structure, 'Cost Structure', 5, 0)}}
+       {{ bmc_block(canvas.revenue_streams, 'Revenue Streams', 5, 0)}}
+     </tr>
+   </table>
+   <!-- /Canvas -->
+  </div>
+
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %} Conversations | team {{data.team.name}}{% endblock %}
+
+{% block header %}
+  <div class="container">
+    <div class="row">
+      <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li class="active">Conversations</li>
+      </ol>
+    </div>
+  </div>
+{% endblock %}
+
+
+{% block main %}
+  {% for conversationSlug, conversation in data.conversations %}
+    {% set conversation = conversation %}
+    {% include "partials/conversation-summary.html" %}
+  {% endfor %}
+{% endblock %}

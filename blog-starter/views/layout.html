@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}Team "{{data.team.name}}" &mdash; {{data.class.number}} {{data.class.semester}}{% endblock %}</title>
+    <meta name="description" content="Flat UI Kit Free is a Twitter Bootstrap Framework design and Theme, this responsive framework includes a PSD and HTML version."/>
+
+    <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="/bower_components/flat-ui/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="/bower_components/flat-ui/dist/css/flat-ui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Loading Flat UI -->
+    <link href="/static/css/site.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="dist/js/vendor/html5shiv.js"></script>
+      <script src="dist/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    {% block extra_head %}
+    {% endblock %}
+  </head>
+  <body>
+    {% block header %}
+    {% endblock %}
+    <div class="{% if fluid_layout %}container-fluid{% else %}container{% endif %}">
+      {% block main %}
+      {% endblock %}
+    </div> <!-- /container -->
+
+    {% include "partials/footer.html" %}
+
+    <script src="bower_components/flat-ui/dist/js/vendor/jquery.min.js"></script>
+    <script src="bower_components/flat-ui/dist/js/flat-ui.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        function loadScript(elementType, params, callback) {
+          var s, r, t; r = false;
+          s = document.createElement(elementType);
+          for (var key in params) {
+            if (params.hasOwnProperty(key)) {
+              s[key] = params[key];
+            }
+          }
+          console.log('trying to load', params);
+          s.onload = s.onreadystatechange = function() {
+            //console.log( this.readyState ); //uncomment this line to see which ready states are called.
+            if ( !r && (!this.readyState || this.readyState == 'complete') ) {
+              r = true;
+              console.log('loaded ', params);
+              if(callback) {
+                callback();
+              }
+            }
+          };
+
+          t = document.getElementsByTagName('head')[0];
+          t.appendChild(s);
+        }
+
+        var selector = 'pre code';
+        var codeElements = document.querySelectorAll(selector);
+        // Load Highlightjs if there is code on this page
+        if (codeElements.length > 0) {
+          console.log('found code');
+          loadScript('script', {type: 'text/javascript', src: '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js'}, function(){
+            console.log(codeElements);
+            document.codeElements = codeElements;
+            hljs.initHighlightingOnLoad();
+            // codeElements.forEach(function(){
+            //   console.log('woooot');
+            // });
+          });
+          loadScript('link', {href: '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/github.min.css', type: 'text/css', rel:  'stylesheet'})
+        }
+      })();
+    </script>
+  </body>
+</html>

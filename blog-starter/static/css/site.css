@@ -1,0 +1,91 @@
+.questions li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+a.contact-member{
+  margin-left: 0.5em;
+}
+
+ul.team-app-details{
+  padding-left: 1em;
+}
+ul.team-app-details i.fa{
+  margin-right:0.25em;
+}
+
+div.updateSummary{
+  border: 1px solid #EDEFF1;
+  padding: 2em;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2em;
+}
+span.updateKey{
+  text-transform: uppercase;
+}
+h1.updateTitle span.updateKey{
+  font-size: 50%;
+}
+
+div.update{
+  margin-bottom: 2em;
+}
+
+div.updateOverview{
+  padding: 15px;
+
+  background-color: #48CFAD;
+  color: #fff;
+}
+
+svg.canvas{
+  fill: #434A54;
+  background-color: #fff;
+  display: block;
+  border-bottom: 5px solid #37BC9B
+}
+
+ul.updateNews{
+  padding-left: 0px;
+}
+ul.updateNews li{
+  list-style: none;
+  margin-left: 0;
+}
+
+.canvas-holder{
+  text-align: center;
+  color: white;
+}
+
+img.canvas-icon{
+  background-color: white;
+}
+
+table#bizcanvas{
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom:2em;
+}
+table#bizcanvas td{
+  vertical-align: top;
+}
+table#bizcanvas .invalidated{
+  color: #DA4453;
+  text-decoration: line-through;
+}
+/* http://bootflat.github.io/documentation.html */
+.canvas-heading{
+  background-color: #434A54;
+  display:block;
+  color: white;
+  margin-top: 0;
+  padding: 0.5em 0.25em;
+}
+
+.footer-banner{
+  margin-left: 0;
+}
+.footer-banner-holder{
+  padding-left: 0;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "cpsc113-node-blog",
+  "version": "1.0.0",
+  "description": "Blog for CPSC113",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "bower": "^1.7.2",
+    "cas-authentication": "0.0.8",
+    "client-sessions": "^0.7.0",
+    "compression": "^1.6.0",
+    "express": "^4.13.3",
+    "glob": "^6.0.3",
+    "marked": "^0.3.5",
+    "nunjucks": "^2.2.0",
+    "nunjucks-markdown": "^1.1.0",
+    "yaml-front-matter": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
