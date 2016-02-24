@@ -1,120 +1,108 @@
 ---
 problem:
-  - title: Sharing lots of photos and videos is a time consuming
+  - title: It's difficult for prospective parents to find willing donors or carriers
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+     It is really hard for a prospective parent to find someone who will either
+     donate sperm or eggs, or carry their bably through pregnancy.  This tricky
+     situation is only made more difficult by selecting the RIGHT donor/ carrier
+     for you and your family.
+
+  - title: The process is awkward and expensive
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 5
     description: |
-     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+      It's awkward for couples to ask friends or family members to donate sperm/
+      eggs or act as a carrier.  Total cost for the usual surrogacy in the US is
+      more than $150,000
 
-  - title: Parents have no free time
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 2
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-
-  - title: Parents confused by technology
-    invalidated: true # whether this has been invalidated. Used to show change
-    confidence: 10
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-
-  - title: |
-     *Existing alternatives*: Flickr, SmugMug, MobileMe, Facebook
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 7
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-
-cost_structure: # ... etc
-
-  - title: Hosting (currently $30 on Heroku)
+  - title: The process is fraught with legal barriers
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 8
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+      There are a large number of ethical and legal labyrinths to navigate.
+      This makes it extreemly difficult for a couple to try to figure it out
+      by themselves.
 
-  - title: People costs (40hrs * $65/hr = $10k/mo)
+  - title: It is very difficult to find the right match
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 8
+    description: |
+      Do you want blond hair or dark hair?  Ivy League educated?  Vetting potential
+      donors is really complicated.
+
+  - title: Orchestrating the transaction is difficult
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 8
+    description: |
+      From doctors to lawyers to sperm clinics to 9 months worth of pregnancy,
+      the whole process is really confusing.
+
+  - title: Existing alternatives - Surrogate agencies (such as Conceivabilities)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 7
+    description: |
+    
+
+cost_structure: # ... etc
+
+  - title: Hosting (currently $30/month on Heroku)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 8
+    description: |
+      We will host our platform on Heroku
+
+  - title: People costs (3 people * 40hrs * $80/hr = $10k/mo)
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 3
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-
+      This may vary depending on the number of people working on the project
 
 solution: # ... etc
 
-  - title: Instant, no upload sharing
+  - title: Social web-app that facilitates matching
     invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 2
+    confidence: 7
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+      A secure, website that facilitates matching (initially through a directory
+      listing with filtering functionality, later, possibly, with an advanced
+      matching algorithm) of individuals who possess a specific good (surrogacy,
+      sperm donor, egg donor, or combination thereof)
 
-
-  - title: iPhoto/folder integration
+  - title: Additional services such as background checks, and legal contracts
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 9
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
-
-  - title: Better notification tools
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 1
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis  nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo conse quat.
+      Later, we will look into insurance, medication, and counseling
 
 key_metrics:
-  - title: A - Sign up
-  - title: A - Created first gallery
-  - title: R - Shared an album and/or video
-  - title: R - invited family and friends
-  - title: R - Paid after trial
-
+  - title: A - Interested people browse site
+  - title: A - Users sign up with profile (and pay)
+  - title: R - Connections are made
+  - title: R - Transactions occur
 
 value_proposition:
-  - title: The fastest way to share your photos and videos
+  - title: The easist way for you to start building your family
   - title: |
-      *High level concept:* Photo and video sharing without the uploading
+      *High level concept:* Web-based application that allows would-be parents
+      to connect with surrogates/ sperm or egg donors.
 
 unfair_advantage:
-  - title: community
+  - title: Simplicity, breadth and depth of connections, and security
 
 channels:
   - title: Fiends
-  - title: Daycare
-  - title: Birthday parties
   - title: AdWords
-  - title: Facebook
+  - title: Fertility clinics
   - title: Word of mouth
 
 customer_segments:
-  - title: Parents (creators)
-  - title: Family and friends (viewers)
-  - title: |
-      *Early adopter*: Parents with young kids
+  - title: Initial focus on heterosexual couples who can't conceive (first time parents). Looking for either sperm, eggs, or a woman to act as a surrogate.
+  - title: As a corollary, we will also need people willing to sell sperm/ eggs or act as surrogates.
+
+revenue_streams:
+  - title: Freemium model - browsing is free, some material is firewalled, pay a monthly fee for premium features
+  - title: Competition charges about $19,500 for "agency fees"
+
 ---
