@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block title %}{{updateKey}} update | team {{data.team.name}}{% endblock %}
+
+
+{% block header %}
+  <div class="container">
+    <div class="row">
+      <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li>Updates</li>
+        <li class="active">{{updateKey}}</li>
+      </ol>
+    </div>
+  </div>
+{% endblock %}
+
+{% block main %}
+  <div class="row update">
+    <h1 class="updateTitle"><span class="updateKey">{{updateKey}}:</span><br>{{update.title}}</h1>
+  </div>
+  <div class="row update updateOverview">
+    <div class="col-sm-3 canvas-holder">
+      <a href="{{updateKey}}/canvas">
+        <svg class="canvas" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="6 18 88 56" enable-background="new 0 0 100 100" xml:space="preserve"><g><path d="M6,17v1v2v39v15h88V59V20v-2v-1H6z M40,59V40v-2V20h20v18v2v19H40z M38,20v18H24V20H38z M24,40h14v19H24V40z M62,40h14v19   H62V40z M76,38H62V20h14V38z M8,20h14v18v2v19H8V20z M8,61h14h16h2h9v11H8V61z M92,72H51V61h9h2h16h14V72z M92,59H78V40v-2V20h14   V59z"></path><polygon points="42,23 42,24 57,24 58,24 58,22 42,22  "></polygon></g></svg>
+          View Canvas
+      </a>
+    </div>
+    <div class="col-sm-9">
+      <ul class="updateNews">
+        {% for news in update.news %}
+        <li>
+          {% if news.kind == 'joy' %}
+          {% set icon = 'fa-smile-o' %}
+          {% elif news.kind == 'learning' %}
+          {% set icon = 'fa-lightbulb-o' %}
+          {% elif news.kind == 'struggle' %}
+          {% set icon = 'fa-frown-o' %}
+          {% else %}
+          {% set icon = 'fa-genderless' %}
+          {% endif %}
+          <i class="fa fa-home fa-fw {{icon}}"></i>
+          {{news.title|inlineMarkdown|safe}}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="row update updateBody">
+{% markdown %}
+{{update.__content|render|safe}}
+{% endmarkdown%}
+  </div>
+{% endblock %}

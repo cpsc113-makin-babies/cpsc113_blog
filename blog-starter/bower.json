@@ -1,0 +1,22 @@
+{
+  "name": "cpsc113-node-blog",
+  "description": "Blog for CPSC113",
+  "main": "index.js",
+  "authors": [
+    "Kyle L. Jensen <kljensen@gmail.com>"
+  ],
+  "license": "Unlicense",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flat-ui": "~2.2.2"
+  }
+}

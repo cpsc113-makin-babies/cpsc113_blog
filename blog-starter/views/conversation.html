@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %} Conversation with {{conversation.interviewee}} | team {{data.team.name}}{% endblock %}
+
+{% block header %}
+  <div class="container">
+    <div class="row">
+      <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li>Conversations</li>
+        <li class="active">{{conversation.interviewee}}</li>
+      </ol>
+    </div>
+  </div>
+{% endblock %}
+
+{% block main %}
+  <div class="row update">
+    <h1 class="updateTitle"><span class="updateKey">Conversation with {{conversation.interviewee}}</span></h1>
+  </div>
+
+<div class="row update updateOverview">
+  <strong>SUMMARY: </strong>{{ conversation.summary }}
+</div>
+<div class="questions row update updateBody">
+{% for questions in conversation.questions %}
+  <li><strong>{{questions.q}}</strong>
+  <br>{{questions.a}}</li>
+{% endfor %}
+
+</div>
+
+{% endblock %}
