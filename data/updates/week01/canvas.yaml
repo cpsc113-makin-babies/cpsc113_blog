@@ -43,7 +43,7 @@ problem:
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 7
     description: |
-    
+
 
 cost_structure: # ... etc
 
@@ -92,14 +92,13 @@ unfair_advantage:
   - title: Simplicity, breadth and depth of connections, and security
 
 channels:
-  - title: Fiends
+  - title: Word of mouth/ Friends
   - title: AdWords
   - title: Fertility clinics
-  - title: Word of mouth
 
 customer_segments:
-  - title: Initial focus on heterosexual couples who can't conceive (first time parents). Looking for either sperm, eggs, or a woman to act as a surrogate.
-  - title: As a corollary, we will also need people willing to sell sperm/ eggs or act as surrogates.
+  - title: Our initial focus will be on gay men who are looking for surrogacy services in the New England and Mid Atlantic area.
+  - title: As a corollary, we will also need women willing to act as surrogates.
 
 revenue_streams:
   - title: Freemium model - browsing is free, some material is firewalled, pay a monthly fee for premium features
