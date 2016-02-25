@@ -122,7 +122,6 @@ express, and handlebars.  We will build tests to test our code and deploy our co
 development environment prior to deploying to production.  As we will use agile scrum,
 tasks will be divvied up into stories where we will use point poker to assign weights and
 combine these stories into epics.
-<<<<<<< HEAD
 
 **Weekly Update**
   * In order to mitigate risk, we've contacted a number of stakeholders in order to figure out
