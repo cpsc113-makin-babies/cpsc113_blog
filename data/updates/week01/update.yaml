@@ -31,9 +31,11 @@ matching algorithm) of individuals who possess a specific good (surrogacy,
 sperm donor, egg donor, or combination thereof)
 
 **Who is your customer or customers?**
-  * Our initial focus will be on heterosexual couples who are having trouble conceiving.
-    * This is a large and relatively unregulated market with a desperate need to create a family
-  * As an this is a two sided marketplace, we will also need sperm/ egg donors and female carriers
+  * Our initial focus will be on gay men who are looking for surrogacy services in
+    the New England and Mid Atlantic area.
+    * This group is most acutely affected by the murky and complex area of surrogacy
+  * As an this is a two sided marketplace, we will also need find female carriers to
+    connect these couples with.
 
 **What is their pain?**
 These individuals’ pains are the difficulty in sourcing reproductive health assistance,
@@ -132,7 +134,7 @@ development environment prior to deploying to production.  As we will use agile 
 tasks will be divvied up into stories where we will use point poker to assign weights and
 combine these stories into epics.
 
-**Weekly Update**
+**Weekly Update: What we did last week**
   * In order to mitigate risk, we've contacted a number of stakeholders in order to figure out
     how the problem affects them and confirm that we are focused in the right area
       * We've contacted friends at BuzzFeed who specialize in women's health and surrogacy
@@ -141,3 +143,9 @@ combine these stories into epics.
         to visit these in person to interview stakeholders on Friday 3/4.
       * We set up a coffee chat with a friend who used to work in management at Planned
         Parenthood Southern New England.
+**Goals: What we'll do next week**
+      * Create a landing page to test market size, if people are interested, if they
+        will value this.
+      * Is this a real pain for gay men in New England/ mid-atlatic?
+          * Answer this with interviews/ surveys
+          * We have set up interviews with management at Planned Parenthood 
