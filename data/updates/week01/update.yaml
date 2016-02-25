@@ -51,7 +51,12 @@ ength from each other until they have monetized through a platform messaging sys
 
 **How do you know these things?**
   * Each prospective family spends more than $150,000 on a us based surrogacy
-  *
+  * Overall surrogacy success rate = 60 to 70%
+    * Once surrogate is pregnant, the success rate is 95%
+  * Total number of surrogate births is hard to estimate as countries do not report
+    this
+    * Estimated number of kids adopted through public child welfare agencies
+      = 52,000/ year (2013)
 
 **How will you reach these customers and convert them into users of your app?**
 We will use word of mouth, AdWords and hopefully build a critical mass of network
@@ -65,6 +70,10 @@ checks and legal contracts) would be charged.
 
 **What are the biggest risks?**
 The top five reasons for failing are the following:
+  * Regulatory risks (what are the rules for connecting donors/ surrogates with
+    prospective families?)
+  * Collection of medical data (HIPAA).  Can we avoid collecting medical data,
+    by acting solely as the intermediary, not the surrogacy agency?
   * Difficulty in building supply of donors/surrogates
   * Difficulty in building demand of donors/surrogates
   * Unexpected legal or regulatory issues with this venture
@@ -78,7 +87,7 @@ industry, risks can be reduced but not eliminated.
     problem for a significant number of users and that they will actually want to
     use the product. We will mitigate this immediately by going to talk to users,
     stakeholders, and people in the fertility and surrogacy industry.
-  * The solution for the first two primary concerns- building supply and demand
+  * The solution for two of the primary concerns- building supply and demand
     could be achieved through the creation of a multi-prong customer acquisition plan,
     for example, acquisition through partnerships with existing firms and operators
     in this space and through an e-mail campaign, realizing that the conversion
@@ -115,7 +124,7 @@ information.
 
 **Technical Stack**
 We will focus on building this platform nearly exclusively on the server, as a
-security precaution.  The data will be hashed prior to submission for security reasons.
+security precaution.  Users will sumbit data through their profile, which we will encrypt securely.
 We intend to store our data in a MongoDB architecture, which lends for the greatest
 flexibility for scaling.  Our stack will additionally consist of Javascript, node.js,
 express, and handlebars.  We will build tests to test our code and deploy our code in a
