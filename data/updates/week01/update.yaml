@@ -1,80 +1,134 @@
 ---
-title: A week of despair and drudgery
+title: Trimming the Fat - Honing in on an idea
 summary: |
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
-  Also,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. We feel discouraged. Carry on!
+  This week we all came together around the idea and began brainstorming
+  ways to make the project a reality.
 news:
-  - title: Got our first customer!
+  - title: Leverage Yale brand for Ivy-League genetic material!
     kind: joy
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
-  - title: Can't get client side API working yet
+      Ivy League genetic material could be super valuable
+  - title: There may be a bunch of legal barriers
     kind: struggle
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
-  - title: Can't get client side API working yet
+      It will be difficult to navigate the legal requiremnts of this product
+  - title: We found local fertility clinics
     kind: learning
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
+      We're setting up meetings with local fertility/ surrogacy clincs
+  - title: The potential market is small and two-sided
+    kind: struggle
+    description: |
+
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+**Makin Babies**
 
-These updates are written in
-[Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
+A secure, website that facilitates matching (initially through a directory
+listing with filtering functionality, later, possibly, with an advanced
+matching algorithm) of individuals who possess a specific good (surrogacy,
+sperm donor, egg donor, or combination thereof)
 
-You can also use [Nunjucks](https://mozilla.github.io/nunjucks/templating.html)
-to do fancy things like. "Our team name is `{{data.team.name}}`". The content
-will be passed through Nunjucks first and then the Markdown will be rendered.
+**Who is your customer or customers?**
+  * Our initial focus will be on heterosexual couples who are having trouble conceiving.
+    * This is a large and relatively unregulated market with a desperate need to create a family
+  * As an this is a two sided marketplace, we will also need sperm/ egg donors and female carriers
 
-Paragraphs are separated by a blank line.
+**What is their pain?**
+These individuals’ pains are the difficulty in sourcing reproductive health assistance,
+identifying individuals who could be potential matches and fits, vetting these matches and fits,
+and developing the framework and contract under which such a transaction would take place.
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+**What kind of software do you think will solve their pain?**
+A secure, website that facilitates matching (initially through a directory listing with
+filtering functionality, later, possibly, with an advanced matching algorithm) of
+individuals who possess a specific good (surrogacy, sperm donor, egg donor,
+or combination thereof), with additional services such as background checks,
+and legal contracts (later, insurance, medication, and counseling).
+Individuals on opposite sides of the supply and demand will be kept at arms l
+ength from each other until they have monetized through a platform messaging system.
 
-  * this one
-  * that one
-  * the other one
+**How do you know these things?**
+  * Each prospective family spends more than $150,000 on a us based surrogacy
+  *
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+**How will you reach these customers and convert them into users of your app?**
+We will use word of mouth, AdWords and hopefully build a critical mass of network
+ size to make this a viable option for everyone looking for surrogacy services
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+**How do you imagine that you would support this venture? Is it non-profit? Is it for profit?**
+This venture will most likely be for profit.  We expect to follow a freemium model,
+similar to that of many online matchmaking sites where individuals can create
+profiles for free, but messaging and additional services (such as background
+checks and legal contracts) would be charged.
 
-You can even write code! For example, some python
-```python
-x = 5
-for i in range(10):
-  print i
-```
+**What are the biggest risks?**
+The top five reasons for failing are the following:
+  * Difficulty in building supply of donors/surrogates
+  * Difficulty in building demand of donors/surrogates
+  * Unexpected legal or regulatory issues with this venture
+  * Compromised security reduces user trust
+  * Poor coding and platform stability reducing user trust
 
-or some javascript
+**How to mitigate the risks?**
+While there are risks inherent in any venture, due to the sensitivity of this
+industry, risks can be reduced but not eliminated.
+  * The primary risk for this venture will be confirming that this is in fact a
+    problem for a significant number of users and that they will actually want to
+    use the product. We will mitigate this immediately by going to talk to users,
+    stakeholders, and people in the fertility and surrogacy industry.
+  * The solution for the first two primary concerns- building supply and demand
+    could be achieved through the creation of a multi-prong customer acquisition plan,
+    for example, acquisition through partnerships with existing firms and operators
+    in this space and through an e-mail campaign, realizing that the conversion
+    rate for the latter option will be sub 0.6%.
+  * The legal and regulatory issues are always a risk, and this risk could be
+    mitigated through consultation with counsel.  We have very little control over
+    regulatory risk, but personal legal risk can be mitigated through a corporate structure.
+  * Security and trust in general, will be paramount to the customer's perception
+    of our product.  Practicing a proactive security testing regimine and other
+    best practices, such as significant password and data hashing will be critical.
+  * Poor coding can be mitigated through test-driven development and regular code reviews.
+    Further, the development process can be managed and should be managed through using
+    the agile-scrum methodology to enable efficient planning and allocation of resources.
 
-```javascript
-var x = 'foo';
-while(true){
-  console.log('awesome');
-}
-```
+**Potential Impact**
+ Our product will have a highly significant impact on users, namely having their first
+ child (perhaps the most significant event in some lives). Although the product will
+ have a large impact, we recognize that our focus will reduce the potential user base.
+ Additionally, we recognize that there needs to be a critical mass of users in order for
+ our product to be valuable (Network Effects). We will need to build a matchmaking platform
+ but will also need to devote a significant amount of time on customer acquisition processes.
+
+**Describe to us how the software will function. Try to phrase this in some kind of user narrative:
+"As a user, I can log in. I can see XYZ, I can send a message to ABC", etc.**
+As a user I can register with the platform and enter in my details and the parameters
+of what service or individual I am seeking.  Following this, I would be redirected to
+a directory of individual offerings of products or services that are congruent with
+those that I would seek.  I would then choose a specific provider to message, and
+then pay a nominal fee to communicate with this individual.  After this transaction,
+I would be able to message back and forth - though any PII such as phone numbers,
+e-mails and addresses would be obscured.  Once I am satisfied that this individual
+is the person I want to choose, I would pay a larger nominal fee to recieve their contact
+information.
+
+**Technical Stack**
+We will focus on building this platform nearly exclusively on the server, as a
+security precaution.  The data will be hashed prior to submission for security reasons.
+We intend to store our data in a MongoDB architecture, which lends for the greatest
+flexibility for scaling.  Our stack will additionally consist of Javascript, node.js,
+express, and handlebars.  We will build tests to test our code and deploy our code in a
+development environment prior to deploying to production.  As we will use agile scrum,
+tasks will be divvied up into stories where we will use point poker to assign weights and
+combine these stories into epics.
+
+**Weekly Update**
+  * In order to mitigate risk, we've contacted a number of stakeholders in order to figure out
+    how the problem affects them and confirm that we are focused in the right area
+      * We've contacted friends at BuzzFeed who specialize in women's health and surrogacy
+        in order to get their input, access to their users, and potentially a survey
+      * Found 7 fertility/ surrogacy clinics in the greater New Haven Area.  We are planning
+        to visit these in person to interview stakeholders on Friday 3/4.
+      * We set up a coffee chat with a friend who used to work in management at Planned
+        Parenthood Southern New England.
