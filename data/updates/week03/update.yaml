@@ -1,0 +1,46 @@
+---
+title: Harder, Faster, Stronger
+summary: |
+  We did a bunch of customer interviews and honed in on our first users and business model
+news:
+  - title: We can use a 'Man behind the curtain' model to start
+    kind: learning
+    description: |
+      We're crazy agile
+  - title: We are planning to use the base Social Todo node code with PostgreSQL
+    kind: learning
+    description: |
+      The data are highly relational, and this should be an easy solution.
+  - title: Using Match.com's model of tease users on landing page, so they build a minimal profile is perfect
+    kind: joy
+    description: |
+      This will increase the number of users with profiles, rather than letting people just browse
+  - title: Interviewing customers/ building traction is slow for The StorQ
+    kind: struggle
+    description: |
+      We are not as close to our customers as other teams focued on selling to Yale or Students, so progress is a bit slow.  We need to accelerate.
+---
+
+**Makin Babies: New name under consideration "The StorQ"**
+
+**Weekly Update: What we did last week**
+  * Signed up for comepting websites (http://www.findsurrogatemother.com/)
+  * Set up 3x customer interviews with male couples who've used surrogacy or are planning to
+  * Met with/ interviewed Naomi from Planned Parentooh Southern New England (on 3/2/16)
+  * Began building preliminary website
+  * Dan created landing page on Strikingly (http://www.cpsc.strikingly.com)
+  * Created interview template for identifying problem
+  * Acquisition Strategy
+    * Channels: Social Media (TWTR, FB); Content Marketing (Gayparentstobe.com, FB Groups); Pay Per Click, Word of mouth
+      * Early Adopter (Demand Side): Male gay couple, Between 30-40, Affluent, Tech-savvy, Frustrated
+      * Early Adopter (Supply Side): Female, Altruistic, Married, 25-30 years old, Christian, Middle Class, Some College Education, Part-time Working, Has Biological children, Potentially surrogate children themselves
+    * Activation: User is highly motivated, once their on the site, tease them to drive them to build a MVP profile, that way everyone has at least some profile = strong user base
+    * Revenue: Kyles Aupair model = Free Registration Paywall to connect (~$350.00 for Parents); Surrogates (Pay or no pay?); Monthly payment fee during surrogacy period https://proaupair.com
+  * Secondary Research
+
+**Goals: What we'll do next week**
+  * 3x customer interviews
+  * Build MVP of site
+    * Users can register and build a basic profile with what role they're playing and what their looking for.
+    * With this info, we can play the 'Man behind the curtain' and connect users through email etc.
+    * Transfer info from Strikingly page over to site
