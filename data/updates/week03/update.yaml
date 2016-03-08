@@ -1,23 +1,24 @@
 ---
-title: Preparing for Update 4
+title: Harder, Faster, Stronger
 summary: |
-  This week we asked a lot of questions and came up with methods for
-  coming up with answers by the time update 4 rolls around.
+  We did a bunch of customer interviews and honed in on our first users and business model
 news:
-  - title: We do not have a strong enough brand for partnerships (yet)
-    kind: struggle
-    description: |
-      We attempted to reach out to various channels for content marketing
-      partnerships, and were turned down/ignored
-  - title: There is a BUNCH of competition
+  - title: We can use a 'Man behind the curtain' model to start
     kind: learning
     description: |
-      There is an incredible number of fertility options trying to address this
-      same issue
-  - title: The potential market is difficult to reach
+      We're crazy agile
+  - title: We are planning to use the base Social Todo node code with PostgreSQL
+    kind: learning
+    description: |
+      The data are highly relational, and this should be an easy solution.
+  - title: Using Match.com's model of tease users on landing page, so they build a minimal profile is perfect
+    kind: joy
+    description: |
+      This will increase the number of users with profiles, rather than letting people just browse
+  - title: Interviewing customers/ building traction is slow for The StorQ
     kind: struggle
     description: |
-      Appropriate channels are difficult to find
+      We are not as close to our customers as other teams focued on selling to Yale or Students, so progress is a bit slow.  We need to accelerate.
 ---
 
 **Makin Babies: New name under consideration "The StorQ"**
@@ -27,7 +28,7 @@ news:
   * Set up 3x customer interviews with male couples who've used surrogacy or are planning to
   * Met with/ interviewed Naomi from Planned Parentooh Southern New England (on 3/2/16)
   * Began building preliminary website
-  * Dan created landing page on Strikingly (www.cpsc.strikingly.com)
+  * Dan created landing page on Strikingly (http://www.cpsc.strikingly.com)
   * Created interview template for identifying problem
   * Acquisition Strategy
     * Channels: Social Media (TWTR, FB); Content Marketing (Gayparentstobe.com, FB Groups); Pay Per Click, Word of mouth
@@ -42,4 +43,4 @@ news:
   * Build MVP of site
     * Users can register and build a basic profile with what role they're playing and what their looking for.
     * With this info, we can play the 'Man behind the curtain' and connect users through email etc.
-    
+    * Transfer info from Strikingly page over to site
