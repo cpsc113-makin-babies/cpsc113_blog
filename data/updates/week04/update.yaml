@@ -1,0 +1,46 @@
+---
+title: We Are in Way Over Our Heads
+summary: |
+  This week we read a lot of books, met with some fertility clinics, and freaked
+  out about how complex this problem is. We also made some headway with the backend.
+news:
+  - title: Dan drew up a flowsheet for the site architecture
+    kind: learning
+    description: |
+      Dan's flowsheet describes only what potential users would see; our plan is to use some behind-the-scenes wizarding to simulate how fertility clinics, hospitals, and lawyers would interact with the users after a certain point. At the moment, we are using the flowsheet as a guide of what views and controllers we need to have.
+  - title: Amy read a LOT of books
+    kind: learning
+    description: |
+      Amy fried her brain and had a nightmare after reading about the current legality/illegality of surrogacy agencies and about intended parents' experiences of the surrogacy process.
+  - title: Amy and Dan went on meetings with fertility clinics
+    kind: learning
+    description: |
+      We met with Dorothy Greenfeld at the Yale Fertility Center, and Paul Verrastro and Kathy Varkal of the UConn Fertility Center. This is where we learned that there are currently only two workable options for surrogacy: extremely expensive, legally above-board surrogacy agencies based out of the U.S. (which cost about $75,000 per successful surrogacy); and less legal, far less expensive surrogacy farms based out of other countries, notably Mexico and India (which cost about $10,000 per successful surrogacy).
+  - title: Nick started learning ORMs for Postgres
+    kind: learning
+    description: |
+      Nick looked at both sequelize and bookshelf, and has decided to go with Sequelize because Jason is more familiar with it.
+---
+
+**Makin Babies**
+
+**Weekly Update: What we did over spring break**
+  * We started working on the backend
+      * Nick has set up the initial registration page for our web app and is hooking up a Postgres database to it. We're looking to use sequelize as our ORM.
+  * We learned a lot about the current state of the industry
+	  * During our visit with the UConn Fertility Clinic, we discovered that surrogacy agencies are in fact already one-stop-shop centers (previously, we had thought that they were simply ways of setting up surrogates with intended parents). Extremely crestfallen, we believed that this meant that our service would no longer be useful.
+	  * However, we discovered that the real pain point is MONEY. Finding a surrogate is much more painful when not done through a surrogacy agency, and the only reason a couple decides to find one themselves is to try and save money (typically, surrogacy agencies charge about $10,000 for their fee and $20,000 for the reproductive lawyer to set up the contract).
+  * We defined our value
+	  * We can provide high-quality, surrogacy agency-level service, at a smaller expense, because we will have far less overhead (no employees to send to vet surrogates), and possibly be able to set up automation of the contract (HUGE stretch goal: there are many, many permutations of a surrogacy contract, but a finite number that is based off of a finite number of choices/questions).
+**Goals: What we'll do next week**
+    * Makin Babies Hackathon
+      * We will have a mini "hackathon" this Thursday for the three of us to work on separate views and controllers and build out as much of the site as we can in just a few hours.
+	  * Before we do this, we will have to read up as much as we can on sequelize. (Jason please help us)
+    * More reading, more clinics
+      * Amy will be reading more books and frying her brain some more.
+	  * We also got a bunch of great leads from our two fertility clinic meetings, and will be setting up meetings for this week and next week with surrogacy agencies and reproductive lawyers, to hear their side of things.
+    * Reaching out to actual users
+      * Amy signed up as a surrogate mother on findsurrogatemother.com (and has been receiving strange messages/emails ever since), and will be using that site to reach out to both surrogates and intended parents to better understand 1) why they are not using a surrogacy agency; 2) how much they would be willing to pay for surrogacy agency-level quality; and 3) anything else we don't know. Dan is going to help write up a user pitch.
+	* Reaching out to Bird Meets Bee
+	  * One of Nick's classmates from another class mentioned this website (http://www.birdmeetsbee.com/), which is very similar to our current project. It seems like the project may have been abandoned, but we found the founders on LinkedIn and will try and talk to them about their learnings and experience attempting to set this up.
+**Quote of the week: "We don't know what we don't know." -Dan**
