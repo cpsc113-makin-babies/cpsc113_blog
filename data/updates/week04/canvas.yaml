@@ -15,7 +15,7 @@ problem:
     confidence: 10
     description: |
       There are "surrogacy farms", most famously in these two countries, where parents can undergo the process for little more than $10,000.
-    
+
 cost_structure: # ... etc
 
   - title: Hosting (currently $30/month on Heroku)
@@ -31,7 +31,7 @@ cost_structure: # ... etc
 
 solution: # ... etc
 
-  - title: Social web-app that facilitates matching and replaces human 
+  - title: Social web-app that facilitates matching and replaces human
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 7
     description: |
@@ -39,7 +39,7 @@ solution: # ... etc
       listing with filtering functionality, later, possibly, with an advanced
       matching algorithm) of individuals who possess a specific good (surrogacy,
       sperm donor, egg donor, or combination thereof)
-  - title: Additional services such as background checks, and legal contracts: one-stop shop
+  - title: Additional services such as background checks, and legal contracts one-stop shop
     invalidated: false # whether this has been invalidated. Used to show change
     confidence: 9
     description: |
