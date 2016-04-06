@@ -1,0 +1,78 @@
+---
+problem:
+  - title: It's difficult for prospective parents to undergo the surrogacy process with minimal headache and high quality service without breaking the bank.
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+     Surrogacy agencies offer all the needed components, but at prohibitively high prices ($150,000 and up).
+  - title: If prospective parents choose not to use a surrogacy agency and instead attempt to find the pieces for themselves, a la carte, they run into supply and quality problems.
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+      The surrogates that are online and on Craigslist are typically those that did not pass initial screenings with a surrogacy agency, whether due to legal issues or psychological issues.
+  - title: Alternatively, prospective parents can use the much cheaper but morally ambiguous services in Mexico and India.
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+      There are "surrogacy farms", most famously in these two countries, where parents can undergo the process for little more than $10,000.
+cost_structure: # ... etc
+
+  - title: Hosting (currently $30/month on Heroku)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 8
+    description: |
+      We will host our platform on Heroku
+  - title: People costs (3 people * 40hrs * $80/hr = $10k/mo)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 3
+    description: |
+      This may vary depending on the number of people working on the project
+solution: # ... etc
+
+  - title: Social web-app that facilitates matching and replaces human
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 7
+    description: |
+      A secure, website that facilitates matching (initially through a directory
+      listing with filtering functionality, later, possibly, with an advanced
+      matching algorithm) of individuals who possess a specific good (surrogacy,
+      sperm donor, egg donor, or combination thereof)
+  - title: Additional services such as background checks, and legal contracts one-stop shop
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 9
+    description: |
+      Later, we will look into insurance, medication, and counseling
+key_metrics:
+  - title: A - Interested people browse site
+  - title: A - Users sign up with profile (and pay)
+  - title: R - Connections are made
+  - title: R - Transactions occur
+
+value_proposition:
+  - title: Start building your family without sacrificing quality service or breaking the bank
+  - title: |
+      *High level concept:* Web-based application with all the parts would-be parents need to navigate the surrogacy process, all at agency-level quality but without the agency-level cost.
+unfair_advantage:
+  - title: Simplicity, breadth and depth of connections, and security
+  - title: Understanding of how to automate legal processes
+  - title: Ability to charge much less, due to fewer overhead costs
+
+channels:
+  - title: Friends
+  - title: AdWords
+  - title: Fertility clinics
+  - title: Word of mouth
+  - title: Online forums
+
+customer_segments:
+  - title: Initial focus on homosexual male couples living in the Northeast, namely Massachusetts (because it is a gay-friendly state). Well-educated, high-income, aged 30-40.
+  - title: As a corollary, we will also need people willing to act as surrogates (and possibly also egg donors).
+
+revenue_streams:
+  - title: Freemium model - browsing is free, some material is firewalled, pay a monthly fee for premium features
+  - title: Competition charges about $19,500 for "agency fees" and more for legal fees
+  - title: Potential in the future to sell our platform to surrogacy agencies, which currently only use email to facilitate all the processes
+  - title: Potential for partnerships with fertility clinics, legal services, and more
+  - title: Potential for sponsorships from some of the large actors in the very-large pregnancy/childcare industry
+
+---
