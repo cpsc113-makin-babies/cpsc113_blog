@@ -1,0 +1,32 @@
+---
+title: Progress on the Site
+summary: |
+  This week we figure out more of the concrete details of putting the site and user flow together.
+news:
+  - title: Dan began drafting content for the site
+    kind: learning
+    description: |
+Based on the flowsheet Dan created last week, Dan began drafting the content for the site, consolidating much of the content from our previous site, cpsc.strikingly.com and drafting new content for the userflow (https://docs.google.com/document/d/1JbCk52SL4Jct_qRavP2AufJczcThbVS5jysHJwLwIc8/edit?usp=sharing).  Mission critical was the development of our Terms of Service and Privacy Policy.  
+  - title: Amy and Nick started building pages
+    kind: learning
+    description: |
+      Nick has started building the backend, and Amy has started building the views. The current plan is to finish building the profile setup and portal views this week, and then tackling search form/results views. We will have to figure out where the paywall goes before tackling messaging views. Our last stretch goals are our resources’ views, and then maybe some pretty CSS.
+  - title: Talking to surrogacy agencies
+    kind: learning
+    description: |
+      We spoke with a woman who had been a surrogate mother, and got some great insights for her that we later used when we built out the customer flows in class. We will continue speaking with her as well as some other actors in other surrogacy agencies, to hopefully clarify 1) where the pain points are and 2) how we can differentiate our product from the agencies.
+  - title: Persona Map Fun
+    kind: joy
+    description: |
+      From our time in-class on 4/5 during the UX/UI lesson, we identified a means of acquiring new customers and re-acquiring customers primarily through content-marketing strategies.  Through talking out the process and pain points that exist for both surrogates/gestational carriers and homosexual individuals and couples seeking their services, it quickly became evident that a clearinghouse of information about the topic does not exist on the Internet.  We see this as a strong market opportunity as becoming the authoritative platform for education as well as connecting demand and supply in this highly asymmetric market.  
+---
+
+**Makin Babies**
+
+**Goals: What we'll do next week**
+    * Building out the first and second sets of views
+      * As mentioned above, the plan is to first build out the profile setup and portal views, and then tackle search form/results views. Dan will continue creating content, which will be implemented.
+    * More agency meetings/calls
+    * Creating a more professional user flow that we can then use to test on people and use to create an actual business plan/timeline
+    * Reaching out to actual users to test our customer flows
+      * We will leverage the connections we’ve made through surrogacy agencies and through findsurrogatemother.com
