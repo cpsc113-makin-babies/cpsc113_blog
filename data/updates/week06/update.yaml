@@ -1,0 +1,33 @@
+---
+title: Great convos and MORE progress on the site
+summary: |
+  This week we had two great customer interviews (including one customer who wanted to buy the product!) and made HUGE progress on the site
+news:
+  - title: Dan cleaning up content for the site
+    kind: learning
+    description: |
+      Dan is now fitting all the content to the index page of the site
+  - title: Nick finished index page, registration page and shell of profile page.
+    kind: learning
+    description: |
+      Added connections and Mongo backend to allow users to log in and made a super slick index page.
+  - title: More talking to surrogacy agencies
+    kind: learning
+    description: |
+      We had two amazing customer interviews with two large fertility clinics.  They were very supportive and offered advice on legal, technical and more industry connections.  One of them wanted to buy the product!!!
+  - title: Collecting profile pictures is tough
+    kind: struggle
+    description: |
+      We are trying to figure out how to store profile pictures.  David spent significant time with nick looking into it.
+---
+
+**Makin Babies**
+
+**Goals: What we'll do next week**
+    * We are now focused on building.  We want to get user profiles up and running (pulling info from database and displaying info)
+    * Once we have a BARE BONES MVP up and running, we want to release the product to beta users (including some of the orgs weve spoken with) to have them kick the tires
+      * We will work behind the scenes to make connectings till we have our matching algorithm set.
+    * We need to figure out what firewalls we will have in place and what well allow users to do
+      * Dont want to offer features now, only to take them away later.
+      * We want to be transparent with pricing upfront, but havent tested approprate pricing yet!
+      * We need to get all the content polished and up so that we can show people the site.
