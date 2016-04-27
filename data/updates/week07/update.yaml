@@ -1,0 +1,16 @@
+---
+title: In the Matrix
+summary: |
+  We spent this entire week in the matrix coding.  The site is looking DOPE.
+news:
+  - title: We are coders
+    kind: learning
+    description: |
+      We are writing tons of code and the site is looking great
+---
+
+**Makin Babies**
+
+**update**
+  * We met with our TAs and went to office hours and the Hackathon.  We made great progress on the StorQ site.  It is now up and running; mongo is storing users; gridfs is storing and serving pictures; the landing page looks great; we're collecting emails and names from people interested.  Things are finally shaping up!
+  * We still need to build the connection aspect of the site where we match people.
