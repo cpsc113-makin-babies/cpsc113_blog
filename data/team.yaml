@@ -1,27 +1,17 @@
 ---
-name: Makin Babies
+name: The StorQ
 app:
-  name: Makin Babies
+  name: The StorQ
   # url:
   # twitter_username: snapchat
   repo: hhttps://github.com/cpsc113-makin-babies/cpsc113_blog
   tagline: Building a family, the right way
   value: |
-      For men and women who struggle with the awkward social and legal issues related
-      to finding either female carriers or male sperm donors in order to have kids,
-      our product is a mobile-first platform that connects would-be parents with the
-      children of their dreams based off a series of preferences and attributes.
-      We take care of all the connections and legal issues, so that you can focus on
-      building your new family.
+      For men and women who are struggling with fertility issues, our product helps them create the family of their dreams using cutting edge technologies and by bringing transparency, care and compassion into the fertility market.
 
 members:
   - first_name: Nick
     last_name: Lovejoy
     email: nicholas.lovejoy@yale.edu
-  - first_name: Amy
-    last_name: Ho
-    email: amy.ho@yale.edu
-  - first_name: Dan
-    last_name: Kent
-    email: daniel.kent@yale.edu
+
 ---

@@ -1,5 +1,5 @@
 'use strict';
-var cas = require('./cas.js');
+// var cas = require('./cas.js');
 var session = require('client-sessions');
 var nunjucks = require('nunjucks');
 var markdown = require('nunjucks-markdown');
@@ -55,7 +55,7 @@ module.exports = function(app, host, port, sessionSecret){
       activeDuration: duration
   }));
 
-  var auth = cas(host, port);
+  // var auth = cas(host, port);
 
   // This route will de-authenticate the client with the Express server and then
   // redirect the client to the CAS logout page.

@@ -1,0 +1,80 @@
+---
+problem:
+  - title: More than 12% of child-bearing couples have fertility issues
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+  - title: Fertility treatments are expensive (IVF = $15k/ cycle)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+  - title: People care ALOT about having kids.  There is no more basic human desire.
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+  - title: It is awkward and uncomfortable to talk about fertility issues and find unbiased concrete answers on the web
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+
+cost_structure: # ... etc
+  - title: Hosting (currently $30/month on Heroku)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 8
+    description: |
+      We will host our platform on Heroku
+  - title: People costs (3 people * 40hrs * $80/hr = $10k/mo)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 3
+    description: |
+      This may vary depending on the number of people working on the project
+
+solution: # ... etc
+  - title: Social web-app that helps families navigate starting a family.
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 7
+    description: |
+  - title: Track personal data, learn from others, find the best clinics for you.  Think PatientsLikeMe meets Yelp for fertility
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 9
+    description: |
+  - title: Sell directly to clinics and egg banks.  Use our platform as a sort of Customer Relationship Management (CRM) software for these highly profitable and rapidly expanding businesses.
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 9
+    description: |
+
+key_metrics:
+  - title: A - Interested people browse site
+  - title: A - Users sign up with profile (and pay)
+  - title: R - Connections are made
+  - title: R - Transactions occur
+
+value_proposition:
+  - title: Start building your family without sacrificing quality service or breaking the bank
+  - title: |
+      *High level concept:* Web-based application with all the parts would-be parents need to navigate the surrogacy process, all at agency-level quality but without the agency-level cost.
+
+unfair_advantage:
+  - title: Transparency, unbiased data, connections with people going though similar experience
+  - title: Source of options and ideas for next steps on starting family
+  - title: Only CRM for fertility clinics, = reduced CAC
+
+channels:
+  - title: Friends
+  - title: AdWords
+  - title: Fertility clinics
+  - title: Word of mouth
+  - title: Online forums
+
+customer_segments:
+  - title: First time parents, age 25-35 who are either having trouble conceiving, or fear they may have some trouble.
+  - title: Women interested in acting as egg donors or surrogates.
+
+revenue_streams:
+  - title: Optional: Sell user data to research and pharma (like PLM does)
+  - title: Idea 1: Freemium accounts where users can see some info, but not all without paying.  Paywall the valuable features.
+  - title: Idea 2: Monthly subscription, you leave when you have your first child, "graduate" and share your success story.
+  - title: For CRM: Charge monthly subscription to fertility clinics
+
+
+---
