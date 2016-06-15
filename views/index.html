@@ -9,8 +9,16 @@
 {% endblock %}
 
 {% block main %}
+  <h4>CUSTOMER INTERVIEWS</h4>
+    {% for conversationSlug, conversation in data.conversations %}
+      {% set conversation = conversation %}
+      {% include "partials/conversation-summary.html" %}
+    {% endfor %}
+  <hr>
+  <h4>UPDATES</h4>
   {% for updateKey, update in data.updates %}
     {% set update = update.update %}
     {% include "partials/update-summary.html" %}
   {% endfor %}
+
 {% endblock %}

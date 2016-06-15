@@ -15,6 +15,7 @@
 
 
 {% block main %}
+  <h2> Here's a sample of some of the important conversations we've had... </h2>
   {% for conversationSlug, conversation in data.conversations %}
     {% set conversation = conversation %}
     {% include "partials/conversation-summary.html" %}

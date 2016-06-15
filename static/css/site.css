@@ -15,10 +15,10 @@ ul.team-app-details i.fa{
 }
 
 div.updateSummary{
-  border: 1px solid #EDEFF1;
-  padding: 2em;
+  border: 10px solid #EDEFF1;
+  padding: .5em;
   box-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 span.updateKey{
   text-transform: uppercase;
