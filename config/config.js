@@ -6,6 +6,7 @@ var markdown = require('nunjucks-markdown');
 var marked = require('marked');
 var compression = require('compression');
 var loadData = require('./data.js');
+var basicAuth = require('basic-auth');
 
 
 // Create a markdown renderer that only renders the
@@ -55,17 +56,28 @@ module.exports = function(app, host, port, sessionSecret){
       activeDuration: duration
   }));
 
-  // var auth = cas(host, port);
+// this is the authorization requirement
+  var auth = function (req, res, next) {
+    function unauthorized(res) {
+      res.set('WWW-Authenticate', 'Basic realm=Authorization Required');
+      return res.sendStatus(401);
+    };
 
-  // //This route will de-authenticate the client with the Express server and then
-  // redirect the client to the CAS logout page.
-  // app.get( '/logout', auth.logout );
-  //
-  // // All other routes require CAS authorization
-  // app.use(auth.bounce);
+    var user = basicAuth(req);
+
+    if (!user || !user.name || !user.pass) {
+      return unauthorized(res);
+    };
+
+    if (user.name === 'foo' && user.pass === 'bar') {
+      return next();
+    } else {
+      return unauthorized(res);
+    };
+  };
 
   // Get the homepage
-  app.get('/', function (req, res) {
+  app.get('/', auth, function (req, res) {
     res.render('index.html', {});
   });
 

@@ -1,0 +1,70 @@
+---
+problem:
+  - title: Onboarding new clients is expensive, complicated and time consuming for surrogacy agencies
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 7
+    description: |
+  - title: Agencies are always lacking one side of supply (either IPs or Carriers)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 6
+    description: |
+  - title: There's a ton of paperwork and Client Relationship Management that's involved in the surrogacy process
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+  - title: IPs and Carriers have a hard time finding info about what's involved in the process
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+
+cost_structure: # ... etc
+  - title: Hosting (currently $30/month on Heroku)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 8
+    description: |
+      We will host our platform on Heroku
+  - title: People costs (3 people * 40hrs * $80/hr = $10k/mo)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 3
+    description: |
+      This may vary depending on the number of people working on the project
+
+solution: # ... etc
+  - title: CRM for surrogacy agencies
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 7
+    description: |
+  - title: Track paperwork, med and background checks, onboarding, build profiles and match parties all from one streamlined system
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 9
+    description: |
+
+
+key_metrics:
+  - title: A - Interested people browse site
+  - title: A - Users sign up with profile (and pay)
+  - title: R - Connections are made
+  - title: R - Transactions occur
+
+value_proposition:
+  - title: Take control of your complex surrogacy process. Manage your current clients and attract new famililies through our streamlined system
+  - title: |
+      *High level concept:* Web-based application with all the parts would-be parents need to navigate the surrogacy process, all at agency-level quality but without the agency-level cost.
+
+unfair_advantage:
+  - title: Only CRM for fertility clinics, = reduced CAC, less time spent on wrangling paperwork so you can focus on making connections
+
+channels:
+  - title: Friends
+  - title: AdWords
+  - title: Fertility clinics
+  - title: Word of mouth
+  - title: Online forums
+
+customer_segments:
+  - title: Surrogacy agencies, could possibly also be valuable for fertility clinics.
+
+revenue_streams:
+  - title: Charge monthly subscription to surrogacy agencies/ fertility clinics for use of software
+
+---
