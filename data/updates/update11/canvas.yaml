@@ -1,0 +1,76 @@
+---
+problem:
+  - title: More than 12% of childbearing couples have fertility issues
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+  - title: Surrogacy is expensive (around $120k) & takes alot of time (ave = 19 months)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+  - title: Current options do not rely on scientific approach and are confusing for intended parents
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 10
+    description: |
+
+
+cost_structure: # ... etc
+  - title: Hosting (currently $0/month on Heroku)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 8
+    description: |
+      We will host our platform on Heroku
+  - title: Future people costs (3 people * 40hrs * $80/hr = $10k/mo)
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 3
+    description: |
+      This may vary depending on the number of people working on the project
+
+solution: # ... etc
+  - title: Surrogacy platform that matches intended parents and gestational carriers
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 7
+    description: |
+  - title: We handle all logistics from onboarding to birth
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 9
+    description: |
+  - title: We offer a broad network, scientific approach, and legal safeguards to make sure you have the best match possible.
+    invalidated: false # whether this has been invalidated. Used to show change
+    confidence: 9
+    description: |
+
+key_metrics:
+  - title: A - Interested people browse site
+  - title: A - Interested people sign up for email notifications
+  - title: A - Users create their own profile
+  - title: R - Connections are made
+  - title: R - Transactions occur ($)
+
+value_proposition:
+  - title: Building happy families for the 21st century
+  - title: |
+      *High level concept:* Web-based application that allows would-be parents to create the family of their dreams through a broad network of connections, a strict scientific approach and a strong foundation of legal expertise.  All this to make sure you can start our family as quickly and painlessly as possible.
+
+unfair_advantage:
+  - title: Broad network of connections
+  - title: Scientific approach to matching
+  - title: Automated processes = reduced time waiting
+  - title: Deep knowledge base makes sure that all arrangements are legal and you don't have any issues creating your family.
+
+channels:
+  - title: Friends
+  - title: AdWords
+  - title: Fertility clinics
+  - title: Word of mouth
+  - title: Online forums
+
+customer_segments:
+  - title: First time parents, age 25-35 who are either having trouble conceiving, or fear they may have some trouble.
+  - title: Women interested in acting as egg donors or surrogates.
+
+revenue_streams:
+  - title: Free to sign up and make connections, $300-500 paywall once you're ready to chat with a potential match. $10,000-15,000 once you're ready to progress with surrogacy etc
+  - title: For CRM- Charge monthly subscription to fertility clinics
+
+---
