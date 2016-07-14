@@ -27,7 +27,12 @@
   <li><strong>{{questions.q}}</strong>
   <br>{{questions.a}}</li>
 {% endfor %}
-
+</div>
+<hr>
+<div class="row update updateBody">
+  {% markdown %}
+  {{conversation.__content|render|safe}}
+  {% endmarkdown%}
 </div>
 
 {% endblock %}
