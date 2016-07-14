@@ -30,9 +30,9 @@
 </div>
 <hr>
 <div class="row update updateBody">
-  {% markdown %}
-  {{conversation.__content|render|safe}}
-  {% endmarkdown%}
+{% markdown %}
+{{conversation.__content|render|safe}}
+{% endmarkdown%}
 </div>
 
 {% endblock %}
